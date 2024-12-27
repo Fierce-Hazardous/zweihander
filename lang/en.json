@@ -138,49 +138,6 @@
         "biography": "Biography",
         "characternotes": "Character Notes"
       },
-      "skills": {
-        "alchemy": "Alchemy",
-        "athletics": "Athletics",
-        "awareness": "Awareness",
-        "bargain": "Bargain",
-        "charm": "Charm",
-        "coordination": "Coordination",
-        "counterfeit": "Counterfeit",
-        "disguise": "Disguise",
-        "drive": "Drive",
-        "eavesdrop": "Eavesdrop",
-        "education": "Education",
-        "folklore": "Folklore",
-        "gamble": "Gamble",
-        "guile": "Guile",
-        "handleanimal": "Handle Animal",
-        "heal": "Heal",
-        "incantation": "Incantation",
-        "interrogation": "Interrogation",
-        "intimidate": "Intimidate",
-        "leadership": "Leadership",
-        "martialmelee": "Martial Melee",
-        "martialranged": "Martial Ranged",
-        "navigation": "Navigation",
-        "pilot": "Pilot",
-        "resolve": "Resolve",
-        "ride": "Ride",
-        "rumor": "Rumor",
-        "scrutinize": "Scrutinize",
-        "simplemelee": "Simple Melee",
-        "simpleranged": "Simple Ranged",
-        "skulduggery": "Skulduggery",
-        "stealth": "Stealth",
-        "survival": "Survival",
-        "toughness": "Toughness",
-        "tradecraft": "Tradecraft",
-        "warfare": "Warfare",
-        "rankabbreviation": {
-          "apprentice": "Appr.",
-          "journeyman": "Jour.",
-          "master": "Mstr."
-        }
-      },
       "items": {
         "drivers": "Drivers",
         "passengers": "Passengers",
@@ -247,6 +204,11 @@
         "drawback": "Drawback",
         "expertreq": "Expert Profession Requirements",
         "skillranks": "Skill Ranks",
+        "skillranksabbr": {
+          "apprentice": "Appr.",
+          "journeyman": "Jour.",
+          "master": "Mstr."
+        },
         "bonusadvances": "Bonus Advances",
         "associatedskill": "Associated Skill",
         "handling": "Handling",
@@ -255,6 +217,7 @@
         "damage": "Damage",
         "qualities": "Qualities",
         "ancestraltrait": "Ancestral Trait",
+        "ancestralmodifiers": "Ancestral Modifiers",
         "damagethresholdmodifier": "Damage Threshold Modifier",
         "status": "Status",
         "bonusperrank": "Base Chance Increase per Rank",
@@ -280,7 +243,25 @@
         "promote": "Promote to Driver",
         "item": "Item",
         "post": "Post",
-        "tochat": "to Chat"
+        "tochat": "to Chat",
+        "misc": "Misc.",
+        "ranksrequired": "Ranks Required",
+        "additionalreq": "Additional Requirements",
+        "effect": "Effect",
+        "effects": "Effects",
+        "traitscategories": {
+          "professional": "Professional",
+          "special": "Special",
+          "ancestral": "Ancestral"
+        },
+        "innateflaw": "Innate Flaw",
+        "innateability": "Innate Ability",
+        "charadvances": "Character Advances",
+        "traitsdrawback": "Traits & Drawback",
+        "lore": "Lore",
+        "positive": "Positive",
+        "negative": "Negative",
+        "randomtrait": "Randomize Trait"
       },
       "conditions": {
         "incapacitated": "INCAPACITATED!",
@@ -569,6 +550,7 @@
         "title": "Languages",
         "name": "Language Name",
         "literate": "Literate",
+        "literatesymbol": "ᴸ",
         "add": "Add Language"
       },
       "othersettings": {
@@ -695,7 +677,8 @@
       "professionmissing": "Profession is missing a Talent, has a misspelled Talent, or has a duplicate one. Please add to/change Talent list.",
       "entervalue": "Enter values here",
       "injurytablemismatch": "{severity} Injuries table not found in Compendium Pack\"{pack}\". Please adjust the Injury List in Game Settings.",
-      "injurytableerror": "Compendium \"{pack}\" not found. Please adjust the Injury List in Game Settings."
+      "injurytableerror": "Compendium \"{pack}\" not found. Please adjust the Injury List in Game Settings.",
+	  "noancestrytable": "No Roll Table found in World or Compendium for following Ancestry"
     },
     "coinage": {
       "gc": "gc",
